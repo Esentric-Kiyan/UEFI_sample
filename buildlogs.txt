@@ -1,0 +1,49 @@
+Loading previous configuration from /home/aditya/Desktop/UEFI/edk2/Conf/BuildEnv.sh
+WORKSPACE: /home/aditya/Desktop/UEFI/edk2
+EDK_TOOLS_PATH: /home/aditya/Desktop/UEFI/edk2/BaseTools
+CONF_PATH: /home/aditya/Desktop/UEFI/edk2/Conf
+
+
+Processing meta-data .
+Architecture(s)  = X64
+Build target     = RELEASE
+Toolchain        = GCC5
+
+Active Platform          = /home/aditya/Desktop/UEFI/edk2/UefiLessonsPkg/UefiLessonsPkg.dsc
+ done!
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+"gcc" -MMD -MF /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/OUTPUT/BootVariables.obj.deps -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -fstack-protector -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=BootVariablesStrings -mstack-protector-guard=global -m64 "-DEFIAPI=__attribute__((ms_abi))" -maccumulate-outgoing-args -mno-red-zone -Wno-address -mcmodel=small -fpie -fno-asynchronous-unwind-tables -Wno-address -fno-omit-frame-pointer -flto -DUSING_LTO -Wno-unused-but-set-variable -Wno-unused-const-variable -c -o /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/OUTPUT/./BootVariables.obj -I/home/aditya/Desktop/UEFI/edk2/UefiLessonsPkg/BootVariables -I/home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/DEBUG -I/home/aditya/Desktop/UEFI/edk2/MdePkg -I/home/aditya/Desktop/UEFI/edk2/MdePkg/Include -I/home/aditya/Desktop/UEFI/edk2/MdePkg/Test/UnitTest/Include -I/home/aditya/Desktop/UEFI/edk2/MdePkg/Test/Mock/Include -I/home/aditya/Desktop/UEFI/edk2/MdePkg/Library/MipiSysTLib/mipisyst/library/include -I/home/aditya/Desktop/UEFI/edk2/MdePkg/Include/X64 /home/aditya/Desktop/UEFI/edk2/UefiLessonsPkg/BootVariables/BootVariables.c
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+make: Nothing to be done for 'tbuild'.
+rm -f /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/OUTPUT/BootVariables.lib
+"gcc-ar" cr /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/OUTPUT/BootVariables.lib  @/home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/OUTPUT/object_files.lst
+"gcc" -o /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/DEBUG/BootVariables.dll -nostdlib -Wl,-n,-q,--gc-sections -z common-page-size=0x40 -Wl,--entry,_ModuleEntryPoint -u _ModuleEntryPoint -Wl,-Map,/home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/DEBUG/BootVariables.map,--whole-archive -Wl,-melf_x86_64,--oformat=elf64-x86-64,-pie -flto -Os -Wl,--start-group,@/home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/OUTPUT/static_library_files.lst,--end-group -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -fstack-protector -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=BootVariablesStrings -mstack-protector-guard=global -m64 "-DEFIAPI=__attribute__((ms_abi))" -maccumulate-outgoing-args -mno-red-zone -Wno-address -mcmodel=small -fpie -fno-asynchronous-unwind-tables -Wno-address -fno-omit-frame-pointer -flto -DUSING_LTO -Wno-unused-but-set-variable -Wno-unused-const-variable -Wl,--defsym=PECOFF_HEADER_SIZE=0x228 -Wl,--script=/home/aditya/Desktop/UEFI/edk2/BaseTools/Scripts/GccBase.lds -Wno-error
+/usr/bin/ld: warning: StackCookieInterrupt.obj: missing .note.GNU-stack section implies executable stack
+/usr/bin/ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker
+"objcopy"  /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/DEBUG/BootVariables.dll
+cp -p -f /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/DEBUG/BootVariables.dll /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/DEBUG/BootVariables.debug
+"objcopy" --strip-unneeded -R .eh_frame /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/DEBUG/BootVariables.dll
+"objcopy"  /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/DEBUG/BootVariables.dll
+cp -p -f /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/DEBUG/BootVariables.debug /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/BootVariables.debug
+"GenFw" -e UEFI_APPLICATION -o /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/OUTPUT/BootVariables.efi /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/DEBUG/BootVariables.dll
+cp -p -f /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/OUTPUT/BootVariables.efi /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/DEBUG
+cp -p -f /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/OUTPUT/BootVariables.efi /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/BootVariables.efi
+cp -p -f /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/DEBUG/*.map /home/aditya/Desktop/UEFI/edk2/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/BootVariables/BootVariables/OUTPUT
