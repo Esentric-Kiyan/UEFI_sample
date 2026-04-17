@@ -1,0 +1,17 @@
+[Defines]
+  INF_VERSION                    = 1.10
+  BASE_NAME                      = BootVariables
+  FILE_GUID                      = ecc5c451-f3e5-4b08-8e4e-39e0196cc348
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = ShellCEntryLib
+
+[Sources]
+  BootVariables.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiLib
+  ShellCEntryLib

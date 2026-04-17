@@ -1,0 +1,17 @@
+[Defines]
+  INF_VERSION                    = 1.25
+  BASE_NAME                      = SimplestApp
+  FILE_GUID                      = 59b46543-21b8-4859-9198-c4c7807c0468
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  SimplestApp.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
